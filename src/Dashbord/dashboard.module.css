@@ -74,6 +74,7 @@
 .dashboard_chart_container {
   background-color: white;
   width: 100%;
+
   display: grid;
   align-items: center;
   justify-content: center;
@@ -91,8 +92,7 @@
   }
   .dashboard_chart_container {
     display: flex;
-
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .dashboardchart_mobile2 {
     width: 100%;
