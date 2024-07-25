@@ -50,11 +50,22 @@ const Dashboard = () => {
         </div>
       </section>
       <aside className={`${style.dashboard_chart_container}`}>
-        <Donony />
-
-        <Chartimage />
-        <RecentActivities />
-        <Pie />
+        <div>
+          {" "}
+          <Donony />{" "}
+        </div>
+        <div>
+          {" "}
+          <Chartimage />{" "}
+        </div>
+        <div>
+          {" "}
+          <RecentActivities />
+        </div>
+        <div>
+          {" "}
+          <Pie />
+        </div>
       </aside>
     </React.Fragment>
   );

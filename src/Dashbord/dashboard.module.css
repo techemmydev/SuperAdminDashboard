@@ -91,8 +91,8 @@
     height: unset;
   }
   .dashboard_chart_container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
   .dashboardchart_mobile2 {
     width: 100%;

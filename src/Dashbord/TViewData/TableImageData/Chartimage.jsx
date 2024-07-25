@@ -1,7 +1,6 @@
 import React from "react";
 import style from "../TableImageData/chart.module.css";
 import { chart } from "./ch";
-
 import { Link } from "react-router-dom";
 import { HiOutlineDotsVertical } from "react-icons/hi";
 
