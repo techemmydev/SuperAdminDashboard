@@ -1,0 +1,47 @@
+.serchInput input {
+  width: 544px;
+  height: 40px;
+  padding: 8.75px 206px 8.75px 40px;
+
+  border: 1px solid #ccdad1;
+  opacity: 0px;
+
+  outline-color: floralwhite;
+
+  background-color: #f5f7f9;
+  color: #babec5;
+}
+.serchInput input::placeholder {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding: 2px;
+  margin-left: 20px;
+  color: #dfc6c6;
+}
+
+.serchbox {
+  position: relative;
+  /* background-color: #ff8500; */
+  /* width: 40%; */
+  padding: 1rem;
+}
+.CiSearch {
+  position: absolute;
+  top: 24px;
+  color: #ff8500;
+  left: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 760px) {
+  .serchInput input {
+    width: 300px;
+  }
+
+  .serchInput input::placeholder {
+    margin-left: unset;
+    font-size: 8px;
+  }
+}

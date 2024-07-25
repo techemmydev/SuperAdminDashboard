@@ -1,0 +1,70 @@
+.Allowcontainer {
+  padding: 1rem;
+  border: 1px solid #88918b1a;
+  /* background-color: red; */
+}
+.flexedit {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+}
+.h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #0a0f29;
+}
+.staff {
+  /* height: 50vh; */
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  gap: 50px;
+}
+.staffSwitch {
+  display: flex;
+  align-items: center;
+}
+.staffSwitch h2 {
+  font-family: "Plus Jakarta Sans";
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #88918b;
+}
+
+.staffSwitch p {
+  font-family: "Plus Jakarta Sans";
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #88918b;
+}
+.infoDetails h2 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #88918b;
+}
+.infoDetails p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #0a0f29;
+}
+.margin_top {
+  margin-top: 20px;
+}
+@media screen and (max-width: 760px) {
+  .flexedit {
+    justify-content: space-between;
+    gap: unset;
+  }
+}

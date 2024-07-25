@@ -1,0 +1,105 @@
+.table_Flex {
+  display: flex;
+
+  font-family: "Plus Jakarta Sans";
+  padding: 1rem;
+}
+
+.table_Flex table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Plus Jakarta Sans";
+}
+
+.table_Flex th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table_styling th {
+  background-color: #ffffff;
+}
+
+.tableheading {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #0a0f29;
+}
+
+.tabledata {
+  font-family: "Plus Jakarta Sans";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #88918b;
+}
+
+.tabledata button {
+  color: white;
+  border: none;
+  width: 80px;
+  font-size: 10px;
+  height: 25px;
+  padding: 0.5px 7px 0.5px 8px;
+  text-transform: uppercase;
+}
+
+.table_styling {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.table_deleteicon {
+  color: black;
+  font-size: 12px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.checkInButton {
+  background-color: #008000;
+}
+
+.oddButton {
+  background-color: #ce1a1a;
+}
+
+.timeColumn {
+  background-color: transparent; /* or any other style to remove the background color */
+}
+
+@media screen and (max-width: 760px) {
+  .table_Flex {
+    /* flex-direction: ; */
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+  }
+
+  /* .table_Flex table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  } */
+
+  .table_Flex th,
+  .table_Flex td {
+    padding: 4px;
+    font-size: 10px;
+  }
+
+  .tabledata button {
+    width: 60px;
+    font-size: 9px;
+    height: 20px;
+    padding: 0.5px 5px 0.5px 6px;
+  }
+
+  .table_deleteicon {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+}

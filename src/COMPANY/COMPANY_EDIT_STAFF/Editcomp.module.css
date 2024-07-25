@@ -1,0 +1,87 @@
+.addnewh1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 1rem;
+}
+.flexheading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.addnewContainer1 {
+  /* height: 65vh; */
+  padding: 1rem;
+  /* background-color: orangered; */
+}
+.addnewContainer {
+  background-color: white;
+  /* height: 60vh; */
+  padding: 1rem;
+}
+.info_Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 2px;
+  margin-bottom: 2rem;
+  /* background-color: brown; */
+}
+
+.addnew {
+  position: relative;
+  /* background-color: orangered; */
+}
+.addnew input::placeholder {
+  font-family: "Plus Jakarta Sans";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #dfc6c6;
+  padding: 5px;
+}
+/* .addnew select option {
+  font-family: "Plus Jakarta Sans";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #dfc6c6;
+} */
+.addnew input {
+  width: 320px;
+  height: 45px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  z-index: 1;
+  margin-bottom: 20px;
+  outline-color: floralwhite;
+}
+.addnew label {
+  background-color: white;
+  top: -10px;
+  left: 15px;
+  position: absolute;
+  padding: 0px 2px 0px 2px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  color: gray;
+}
+.titleHeading {
+  padding: 1rem;
+}
+.titleHeading h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #0a0f29;
+}

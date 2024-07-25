@@ -1,0 +1,96 @@
+.addnewh1 {
+  font-family: "Plus Jakarta Sans";
+
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #0a0f29;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.addnewh2 {
+  font-family: "Plus Jakarta Sans";
+
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #0a0f29;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.flexheading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonFlex {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 1rem;
+
+  margin-bottom: 40px;
+}
+/* StepNavigation.module.css */
+.stepNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.icon {
+  color: #d3d3d3;
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.activeIcon {
+  color: #ff8500;
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.label {
+  color: #d3d3d3;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans";
+
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #0a0f29;
+}
+
+.activeLabel {
+  color: #000;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: bold;
+}
+@media screen and (max-width: 760px) {
+  .flexheading {
+    display: unset;
+  }
+  .addnewh2 {
+    display: none;
+  }
+  .stepNavigation {
+    justify-content: unset;
+  }
+  .step {
+    padding: unset;
+    gap: unset;
+  }
+}

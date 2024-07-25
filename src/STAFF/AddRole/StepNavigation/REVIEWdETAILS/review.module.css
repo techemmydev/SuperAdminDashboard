@@ -1,0 +1,76 @@
+.GenerateCode_container_h1 {
+  justify-content: space-between;
+  display: flex;
+}
+.GenerateCode_container_h1 h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 300;
+
+  color: #0a0f29;
+  padding: 1rem;
+}
+
+.DataContainer {
+  padding: 1rem;
+}
+.DataContainer2 {
+  background-color: white;
+  margin-bottom: 50px;
+  gap: 30px;
+  display: flex;
+}
+.imgaecontainer {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.imgaecontainer h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 300;
+
+  color: #0a0f29;
+}
+.staff_addnew {
+  display: flex;
+  justify-content: space-between;
+}
+
+.GenerateCode_container1 {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.staffSwitch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.staffSwitch h2 {
+  font-family: "Plus Jakarta Sans";
+
+  font-size: 12px;
+  font-weight: 500;
+
+  color: #88918b;
+}
+.staffSwitch p {
+  font-family: "Plus Jakarta Sans";
+
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #88918b;
+}
+@media screen and (max-width: 760px) {
+  .DataContainer2 {
+    display: unset;
+  }
+}

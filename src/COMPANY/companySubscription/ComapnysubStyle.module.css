@@ -1,0 +1,103 @@
+.GenerateCode_container_h1 {
+  justify-content: space-between;
+  display: flex;
+
+  padding: 1rem;
+}
+.GenerateCode_container_h1 h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+
+  line-height: 40px;
+  color: #0a0f29;
+}
+.GenerateCode_container_h1 p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #0a0f29;
+}
+.sectionbox {
+  padding: 1rem;
+  background-color: white;
+}
+.sectionbox1 {
+  padding: 1rem;
+}
+.changeplanbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.changeplanbox h2 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #0a0f29;
+}
+.changeplanbox p {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #88918b;
+}
+
+.basicplans {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.autorenew {
+  font-family: "Plus Jakarta Sans";
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #88918b;
+  gap: 5px;
+}
+.basicplans h2 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #88918b;
+}
+.wifi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.autorenewWifi {
+  font-family: "Plus Jakarta Sans";
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #0a0f29;
+  gap: 5px;
+}
+@media screen and (max-width: 760px) {
+  .GenerateCode_container_h1 p {
+    display: none;
+  }
+  .changeplanbox {
+    flex-wrap: wrap;
+  }
+  .autorenewWifi {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .wifi {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
