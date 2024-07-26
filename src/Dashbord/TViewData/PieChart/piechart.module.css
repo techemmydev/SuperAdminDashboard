@@ -145,7 +145,7 @@
   }
   .grade {
     width: unset;
-    /* margin-left: 60px; */
+    margin-left: 60px;
     justify-content: space-between;
   }
 }
