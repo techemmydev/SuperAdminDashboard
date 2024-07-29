@@ -17,8 +17,8 @@ const CompanyTable = ({ toggleModal }) => {
               </tr>
             </thead>
             <tbody>
-              {items.tablesbody.map((tablesbody, index) => (
-                <tr key={index} className={`${style.trr}`}>
+              {items.tablesbody.map((tablesbody, idx) => (
+                <tr key={idx} className={`${style.trr}`}>
                   {items.tableHeading === "Action" && tablesbody.deleteIcon ? (
                     <td className={`${style.hide}`}>
                       <HiOutlineDotsVertical
@@ -30,22 +30,15 @@ const CompanyTable = ({ toggleModal }) => {
                     <td className={`${style.tabledata} `}>
                       <button
                         className={`${style.checkInButton} ${
-                          index % 2 === 0 ? style.evenButton : style.oddButton
+                          idx % 2 === 0 ? style.evenButton : style.oddButton
                         }`}
-                        // onClick={() =>
-                        //   handleCheckIn(
-                        //     AttendanceTableview[0].tablesbody[index].tableData
-                        //   )
-                        // }
                       >
-                        {tablesbody.tableDatabutton}
+                        {tablesbody.tableData}
                       </button>
                     </td>
                   ) : (
                     <td className={`${style.tabledata}`}>
-                      {tablesbody.tableDatabutton
-                        ? tablesbody.tableDatabutton
-                        : tablesbody.tableData}
+                      {tablesbody.tableData}
                     </td>
                   )}
                 </tr>

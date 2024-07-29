@@ -76,7 +76,8 @@ td {
   .table_Flex {
     /* flex-direction: ; */
     display: grid;
-    grid-template-columns: repeat(3, 3fr);
+    grid-template-columns: repeat(4, 4fr);
+    padding: unset;
   }
 
   /* .table_Flex table {
@@ -87,7 +88,7 @@ td {
 
   .table_Flex th,
   .table_Flex td {
-    padding: 4px;
+    /* padding: 4px; */
     font-size: 10px;
   }
 
@@ -101,5 +102,8 @@ td {
   .table_deleteicon {
     font-size: 10px;
     margin-left: 10px;
+  }
+  .tabledata {
+    line-height: unset;
   }
 }
