@@ -146,9 +146,9 @@ select {
   .settingHeading h2 {
     display: none;
   }
-  .settingHeading h1 {
+  /* .settingHeading h1 {
     margin-top: 30px;
-  }
+  } */
   .IoIosEye {
     color: #ff8500;
     position: absolute;
@@ -170,6 +170,7 @@ select {
   .input_DetailsDropdownicon input,
   select {
     width: 300px;
+    /* background-color: #0a0f29; */
   }
   .input_DetailsDropdowniconflexLocal select {
     width: 300px;

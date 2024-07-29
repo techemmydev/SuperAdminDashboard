@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../COMPANY_EDIT_STAFF/Editcomp.module.css";
+import style from "../ADDNEW_COMPANY/addnewcompany.module.css";
 import Button from "../../SuperAdminComponent/Buttoncomponent/Button";
 import { CgAsterisk } from "react-icons/cg";
 import {
@@ -41,11 +41,12 @@ const EditCompany = () => {
                         {item.lable === "Company Type " ? (
                           <select
                             key={index}
-                            style={{
-                              width: "320px",
-                              height: "45px",
-                              marginBottom: "20px",
-                            }}
+                            // style={{
+                            //   width: "320px",
+                            //   height: "45px",
+                            //   marginBottom: "20px",
+                            // }}
+                            className={style.selectdropdown}
                           >
                             <option value="male">Male</option>
                             <option value="female">Female</option>
@@ -88,11 +89,12 @@ const EditCompany = () => {
                         {!item.lable === "Company Type " ? (
                           <select
                             key={index}
-                            style={{
-                              width: "320px",
-                              height: "45px",
-                              marginBottom: "20px",
-                            }}
+                            // style={{
+                            //   width: "320px",
+                            //   height: "45px",
+                            //   marginBottom: "20px",
+                            // }}
+                            className={style.selectdropdown}
                           >
                             <option value="male">Male</option>
                             <option value="female">Female</option>
@@ -133,11 +135,12 @@ const EditCompany = () => {
                         {!item.lable === "Company Type " ? (
                           <select
                             key={index}
-                            style={{
-                              width: "320px",
-                              height: "45px",
-                              marginBottom: "20px",
-                            }}
+                            // style={{
+                            //   width: "320px",
+                            //   height: "45px",
+                            //   marginBottom: "20px",
+                            // }}
+                            className={style.selectdropdown}
                           >
                             <option value="male">Male</option>
                             <option value="female">Female</option>
@@ -189,7 +192,7 @@ const EditCompany = () => {
                 </div>
               </div>
             </div> */}
-            <div>
+            <div className={`${style.button_container} `}>
               <Button
                 style={{
                   width: "210px",

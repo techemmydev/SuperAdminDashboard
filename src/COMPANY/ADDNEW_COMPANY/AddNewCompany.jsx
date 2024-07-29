@@ -44,11 +44,12 @@ const AddNewCompany = ({ back }) => {
                         {item.lable === "Company Type " ? (
                           <select
                             key={index}
-                            style={{
-                              width: "320px",
-                              height: "45px",
-                              marginBottom: "20px",
-                            }}
+                            // style={{
+                            //   width: "320px",
+                            //   height: "45px",
+                            //   marginBottom: "20px",
+                            // }}
+                            className={style.selectdropdown}
                           >
                             <option value="male">Male</option>
                             <option value="female">Female</option>
@@ -91,11 +92,12 @@ const AddNewCompany = ({ back }) => {
                         {!item.lable === "Company Type " ? (
                           <select
                             key={index}
-                            style={{
-                              width: "320px",
-                              height: "45px",
-                              marginBottom: "20px",
-                            }}
+                            // style={{
+                            //   width: "320px",
+                            //   height: "45px",
+                            //   marginBottom: "20px",
+                            // }}
+                            className={style.selectdropdown}
                           >
                             <option value="male">Male</option>
                             <option value="female">Female</option>
@@ -136,11 +138,12 @@ const AddNewCompany = ({ back }) => {
                         {!item.lable === "Company Type " ? (
                           <select
                             key={index}
-                            style={{
-                              width: "320px",
-                              height: "45px",
-                              marginBottom: "20px",
-                            }}
+                            // style={{
+                            //   width: "320px",
+                            //   height: "45px",
+                            //   marginBottom: "20px",
+                            // }}
+                            className={style.selectdropdown}
                           >
                             <option value="male">Male</option>
                             <option value="female">Female</option>
@@ -192,7 +195,7 @@ const AddNewCompany = ({ back }) => {
                 </div>
               </div>
             </div> */}
-            <div>
+            <div className={`${style.button_container} `}>
               <Button
                 style={{
                   width: "210px",
