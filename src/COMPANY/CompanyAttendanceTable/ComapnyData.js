@@ -2,17 +2,7 @@ export const CompanyTableview = [
   {
     id: 1,
     tableHeading: "S/N",
-    tablesbody: [
-      { tableData: 1 },
-      { tableData: 2 },
-      { tableData: 3 },
-      { tableData: 4 },
-      { tableData: 5 },
-      { tableData: 6 },
-      { tableData: 7 },
-      { tableData: 8 },
-      { tableData: 9 },
-    ],
+    tablesbody: [], // We'll populate this dynamically
   },
   {
     id: 2,

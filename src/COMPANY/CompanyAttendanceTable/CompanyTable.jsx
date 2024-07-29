@@ -4,6 +4,17 @@ import style from "../CompanyAttendanceTable/CompanyStlyeTable.module.css";
 import { CompanyTableview } from "./ComapnyData";
 
 const CompanyTable = ({ toggleModal }) => {
+  const tableDataLength = CompanyTableview.find(
+    (item) => item.tableHeading === "Name"
+  ).tablesbody.length;
+
+  // Dynamically generate S/N
+  const serialNumbers = Array.from({ length: tableDataLength }, (_, index) => ({
+    tableData: index + 1,
+  }));
+  CompanyTableview.find((item) => item.tableHeading === "S/N").tablesbody =
+    serialNumbers;
+
   return (
     <div>
       <section className={`${style.table_Flex}`}>
