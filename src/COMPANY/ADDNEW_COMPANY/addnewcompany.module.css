@@ -96,3 +96,13 @@
   color: #0a0f29;
   cursor: pointer;
 }
+@media screen and (max-width: 760px) {
+  .info_Container {
+    /* background-color: #ff8500; */
+    justify-content: center;
+    flex-direction: column;
+  }
+  .titleHeading {
+    text-align: center;
+  }
+}

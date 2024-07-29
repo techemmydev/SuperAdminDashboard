@@ -146,6 +146,13 @@
   .grade {
     width: unset;
     margin-left: 60px;
+
     justify-content: space-between;
+  }
+
+  .flxs {
+    justify-content: center;
+    gap: 200px;
+    margin-top: 10px;
   }
 }
